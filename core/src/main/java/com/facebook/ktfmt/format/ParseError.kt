@@ -16,7 +16,7 @@
 
 package com.facebook.ktfmt.format
 
-import org.jetbrains.kotlin.com.intellij.openapi.util.text.LineColumn
+import com.intellij.openapi.util.text.LineColumn
 
 class ParseError(val errorDescription: String, val lineColumn: LineColumn) :
     IllegalArgumentException(
