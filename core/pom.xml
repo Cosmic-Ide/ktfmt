@@ -4,15 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ktfmt</artifactId>
+    <groupId>com.facebook</groupId>
+    <version>0.47</version>
 
     <name>Ktfmt</name>
     <description>A program that reformats Kotlin source code to comply with the common community standard for Kotlin code conventions.</description>
-
-    <parent>
-        <groupId>com.facebook</groupId>
-        <artifactId>ktfmt-parent</artifactId>
-        <version>0.47</version>
-    </parent>
 
     <properties>
         <dokka.version>0.10.1</dokka.version>
